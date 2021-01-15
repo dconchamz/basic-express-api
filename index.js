@@ -8,7 +8,8 @@ const response = {
     message: 'Prueba Api Pipeline',
     dev: 'Dancko Concha Manzor',
     po: 'Javier caceres',
-    test:'segundo test' 
+    test:'segundo test',
+    otroTest:'Test de prueba'
 }
 
 app.get('/', (req, res) => {
