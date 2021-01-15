@@ -7,7 +7,8 @@ const port = process.env.PORT || '3000';
 const response = {
     message: 'Prueba Api Pipeline',
     dev: 'Dancko Concha Manzor',
-    po: 'Javier caceres'
+    po: 'Javier caceres',
+    test:'segundo test' 
 }
 
 app.get('/', (req, res) => {
